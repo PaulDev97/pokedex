@@ -170,7 +170,12 @@ button:hover {
   color: black;
 }
 
-
+.type_color {
+  background-color: black;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
 
 .idAlert {
   width: 350px;

@@ -47,7 +47,7 @@ const getPokemon = async ()=> {
 
       <div class="types">
         <span>Type: </span>
-        ${poke.types.map(type => {return  `<span class="${type.type.name}">${type.type.name} </span> `}).join('')}
+        ${poke.types.map(type => {return  `<span class="type_color">${type.type.name} </span> `}).join('')}
        </div>
       
       <div class="details_container">
